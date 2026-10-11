@@ -1,0 +1,6 @@
+[Unit]
+Description=Verify BC-250 Unsloth Vulkan patches after upgrades
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/lib/bc250-unsloth-vulkan/maintain.sh
